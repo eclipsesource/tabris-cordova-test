@@ -19,8 +19,8 @@
   <plugin name="cordova.plugins.diagnostic" spec="~3.3.2" />
   <plugin name="cordova-plugin-ios-non-exempt-encryption" spec="~1.0.0" />
   <plugin name="cordova-plugin-geolocation" spec="~2.4.3" />
-  <plugin name="tabris-plugin-maps" spec="~6.0.0" />
   <!--
+    <plugin name="tabris-plugin-maps" spec="~6.0.0" />
     <plugin name="tabris-plugin-firebase" spec="~4.0.0" />
   -->
   <plugin name="tabris-plugin-barcode-scanner" spec="~3.0.0" />

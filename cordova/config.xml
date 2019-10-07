@@ -17,8 +17,12 @@
   <plugin name="cordova-plugin-inappbrowser" spec="~1.5.0" />
   <plugin name="cordova-plugin-file-transfer" spec="~1.6.0" />
   <plugin name="cordova.plugins.diagnostic" spec="~3.3.2" />
-  <plugin name="phonegap-plugin-barcodescanner" spec="https://github.com/eclipsesource/phonegap-plugin-barcodescanner" />
   <plugin name="cordova-plugin-ios-non-exempt-encryption" spec="~1.0.0" />
   <plugin name="cordova-plugin-geolocation" spec="~2.4.3" />
-  <plugin name="tabris-plugin-firebase" spec="https://github.com/eclipsesource/tabris-plugin-firebase.git#0cba0f997afdb08d9516363a819b84e7573a6a75" />
+  <plugin name="tabris-plugin-maps" spec="~6.0.0" />
+  <!--
+    <plugin name="tabris-plugin-firebase" spec="~4.0.0" />
+  -->
+  <plugin name="tabris-plugin-barcode-scanner" spec="~3.0.0" />
+  <plugin name="tabris-plugin-calendar" spec="https://github.com/eclipsesource/tabris-plugin-calendar.git" />
 </widget>

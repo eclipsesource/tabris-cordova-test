@@ -9,7 +9,7 @@
     "start": "tabris serve -a -w"
   },
   "dependencies": {
-    "tabris": "~3.2.0"
+    "tabris": "nightly"
   },
   "devDependencies": {
     "tslint": "^5.20.0",

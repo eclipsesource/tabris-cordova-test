@@ -4,7 +4,7 @@ import MotionPage from './MotionPage';
 import NetworkPage from './NetworkPage';
 import MediaPage from './MediaPage';
 //import CameraPage from './CameraPage';
-import BarcodeScannerPage from './BarcodeScannerPage';
+//import BarcodeScannerPage from './BarcodeScannerPage';
 
 
 (window as any).MediaError = Error;
@@ -25,7 +25,7 @@ let contentContainer = new ScrollView({
   MotionPage,
   NetworkPage,
   //CameraPage, // broken and superseded by the 3.2 camera API
-  BarcodeScannerPage, // TODO: replace with tabris-plugin-barcode-scanner
+  //BarcodeScannerPage, // TODO: broken, replace with tabris-plugin-barcode-scanner
   MediaPage,
 ].forEach(Page => {
   let page = new Page({});

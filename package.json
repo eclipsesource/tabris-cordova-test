@@ -9,7 +9,7 @@
     "start": "tabris serve -a -w"
   },
   "dependencies": {
-    "tabris": "nightly"
+    "tabris": "3.2.1"
   },
   "devDependencies": {
     "@types/cordova-plugin-x-socialsharing": "^5.1.2",

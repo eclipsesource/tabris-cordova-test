@@ -23,10 +23,10 @@ export default class MediaPage extends PluginPage {
   }
 
   private _createMedia() {
-    let path = app.getResourceLocation('audio/media.wav');
+    let path = app.getResourceLocation('resources/media.wav');
     // According to Media plugin documentation the media path must be
     // relative to the "www" folder under iOS
-    if (device.platform === 'iOS') {
+    if (device.platform === 'iOS' && (path.indexOf('/www/') !== -1)) {
       path = path.substr(path.indexOf('/www/') + 5);
     }
     let onSuccess = () => console.log('Audio file loaded successfully');
